@@ -1,0 +1,53 @@
+/* styles.css */
+body {
+  font-family: Arial, sans-serif;
+}
+
+#quiz-container, #end-screen, #high-scores {
+  text-align: center;
+  padding: 20px;
+}
+
+#start-button, #save-score {
+  margin-top: 10px;
+}
+
+.hidden {
+  display: none;
+}
+
+/* Hide bullet points in the high-score-list */
+#high-score-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* styles.css */
+.answer-button {
+  display: block;
+  width: 100%;
+  margin: 10px 0; /* Add space between buttons */
+  padding: 10px;
+  background-color: #f0f0f0;
+  border: 1px solid #ddd;
+  text-align: left;
+  cursor: pointer;
+}
+
+/* Add this to your CSS styles */
+#back-button {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  cursor: pointer;
+  display: none;
+}
+
+
+#view-top-scores {
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  cursor: pointer;
+}
